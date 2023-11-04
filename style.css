@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Matter Light";
+}
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#main{
+    width: 100%;
+    /*this is done because we dont know the height of the screen it could be more thean out whole page*/
+    background-color: #fff;
+}
+
+#home{
+    min-height: 100vh;
+    /*this nh is the viewport height this helps in viewing tthe ull 100%in display*/
+    width: 100%
+}
+
+#nav{
+    width: 100%;
+    padding: 30px 50px;
+    /* padding front num represents the padding up and down and right num reparesents the 
+    on right and left*/
+    border-style: dotted;
+    justify-content:space-between;
+    display: flex;
+    align-items:center;
+}
+#nav a{
+    font-weight: 550;
+    font-size: 18px;
+    text-decoration:none;
+    color: black;
+    letter-spacing: -0.5px;
+}
+#nav img{
+    width: 100px;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+
+#home #home_main{
+    width: 100%;
+    padding: 10vw 30vw ;
+}
+
+#home_main h1{
+    font-weight: 10;
+}
+
+
+
+.threeMenu{
+    display: flex;
+    gap: 40px ;
+}
+
+#home_main .threeMenu h1{
+     font-size: 5vw;
+}
+
+#home_main h4 {
+    font-size: 2vw;
+    font-weight: 300;
+    padding: 2% 0%;
+}
